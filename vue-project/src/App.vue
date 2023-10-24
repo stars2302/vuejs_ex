@@ -8,11 +8,15 @@ import HelloWorld from './components/HelloWorld.vue'
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="You did it!" msg2="World" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/template">template 문법</RouterLink>
+        <RouterLink to="/reactivity">Reactivity</RouterLink>
+        <RouterLink to="/computed">Computed</RouterLink>
+        <RouterLink to="/binding">Class Style Binding</RouterLink>
       </nav>
     </div>
   </header>

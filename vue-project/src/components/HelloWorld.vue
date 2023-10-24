@@ -3,13 +3,18 @@ defineProps({
   msg: {
     type: String,
     required: true
+  },
+  msg2: {
+    type: String,
+    required: true//얘는 꼭 필요해!
   }
-})
+});
+
 </script>
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+    <h1 class="green">{{ msg }}{{ msg2 }}</h1>
     <h3>
       You’ve successfully created a project with
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
