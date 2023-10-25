@@ -17,6 +17,10 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/reactivity">Reactivity</RouterLink>
         <RouterLink to="/computed">Computed</RouterLink>
         <RouterLink to="/binding">Class Style Binding</RouterLink>
+        <RouterLink to="/conditional">Conditional Rendering</RouterLink>
+        <RouterLink to="/list">List Rendering</RouterLink>
+        <RouterLink to="/event">Event Handling</RouterLink>
+        <RouterLink to="/form">Form Input Bindings</RouterLink>
       </nav>
     </div>
   </header>

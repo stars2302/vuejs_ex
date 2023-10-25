@@ -36,6 +36,26 @@ const router = createRouter({
       path: '/binding',
       name: 'binding',
       component: () => import('../views/BindingView.vue')
+    },
+    {
+      path: '/conditional',
+      name: 'conditional',
+      component: () => import('../views/CrView.vue')
+    },
+    {
+      path: '/list',
+      name: 'list',
+      component: () => import('../views/ListView.vue')
+    },
+    {
+      path: '/event',
+      name: 'event',
+      component: () => import('../views/EventView.vue')
+    },
+    {
+      path: '/form',
+      name: 'form',
+      component: () => import('../views/FormView.vue')
     }
   ]
 })

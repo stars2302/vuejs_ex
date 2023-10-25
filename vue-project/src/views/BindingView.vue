@@ -63,4 +63,6 @@ export default {
     align-items: center;
   }
 }
+hr{margin: 10px 0}
+
 </style>

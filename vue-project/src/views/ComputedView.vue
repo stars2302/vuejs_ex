@@ -41,3 +41,7 @@ export default {
   <div>이름: {{ this.fullName }}</div><!--get()-->
   <div>이름: {{ this.fullName='승관 부' }}</div><!--set()-->
 </template>
+
+<style>
+ hr{margin: 10px 0}
+</style>
