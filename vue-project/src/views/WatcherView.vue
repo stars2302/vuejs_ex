@@ -10,6 +10,7 @@ export default {
   },
   watch: {
     // 질문이 변경될 때마다 이 함수가 실행됩니다
+    //newQuestion이 있는지 없는지 바뀌는지를 계속 감시하는 것
     question(newQuestion, oldQuestion) {
       if (newQuestion.includes('?')) {
         this.getAnswer()
