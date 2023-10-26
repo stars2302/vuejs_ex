@@ -23,7 +23,8 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/form">Form Input Bindings</RouterLink>
         <RouterLink to="/lifecycle">Life cycle</RouterLink>
         <RouterLink to="/watcher">Life cycle</RouterLink>
-        <RouterLink to="/refs">Life cycle</RouterLink>
+        <RouterLink to="/refs">Ref</RouterLink>
+        <RouterLink to="/comp_basic">Life cycle</RouterLink>
       </nav>
     </div>
   </header>

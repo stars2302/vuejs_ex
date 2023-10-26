@@ -18,7 +18,7 @@
 </script>
 
 
-</script>
+
 
 <template>
   <div class="layout">

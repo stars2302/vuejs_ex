@@ -71,6 +71,11 @@ const router = createRouter({
       path: '/refs',
       name: 'refs',
       component: () => import('../views/RefsView.vue')
+    },
+    {
+      path: '/comp_basic',
+      name: 'comp_basic',
+      component: () => import('../views/CbView.vue')
     }
   ]
 })
